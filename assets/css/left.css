@@ -1,0 +1,201 @@
+#main__left {
+    width: 66%;
+}
+
+div.container {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.container > ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.container > ul > li > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+div.container > ul > li {
+    display: inline-block;
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+}
+
+#content {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.check {
+    display: inline-block;
+    height: 40px;
+    width: 600px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 25px;
+    position: relative;
+}
+.check > span {
+    padding: 20px;
+}
+.btn-close {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.success {
+    background: rgb(172, 218, 103);
+}
+
+.fail {
+    background: rgb(207, 120, 120);
+}
+
+h3 {
+    margin-top: 30px;
+    border-bottom: 1px solid #cacaca;
+}
+
+/* p {
+    margin-top: 30px;
+} */
+
+div.size {
+    margin-top: 30px;
+}
+
+div.size > span {
+    color: #cacaca;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.size input {
+    padding: 5px;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+div.submit {
+    margin-top: 30px;
+}
+
+.submit > span {
+    color: #cacaca;
+    display: block;
+    margin-bottom: 10px;
+}
+.submit > input {
+    color: white;
+    background-color: black;
+}
+table {
+    margin-top: 30px;
+}
+
+.row {
+    margin: 10px 0px 10px 0px;
+}
+
+h4 {
+    color: rgba(119, 119, 119, 0.8);
+}
+
+.btn {
+    padding: 3px 15px 3px 15px;
+}
+
+.btn-submit {
+    color: white;
+    background-color: black;
+}
+
+/*  */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+} */
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn__tr {
+    background-color: rgb(184, 179, 179);
+}
+
+.btn__img {
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+}
+.btn__img > img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.btn__img > p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.btn__1 a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn__1 {
+    padding: 20px;
+}
+
+body {
+    background-image: linear-gradient(rgb(202, 202, 202), white);
+}
+
+#main .container {
+    padding: 0px 5px 0px 5px;
+    background-color: white;
+}

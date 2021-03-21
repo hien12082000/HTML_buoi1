@@ -1,0 +1,12 @@
+#footer {
+    background-image: url("../images/backgrounds/footer/Banner.jpg");
+    height: 50px;
+    padding-top: 10px;
+}
+.footer__bottom__notification {
+    margin-left: 150px;
+}
+
+.footer__bottom__notification h4 {
+    color:white;
+}

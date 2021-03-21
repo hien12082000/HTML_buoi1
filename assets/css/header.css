@@ -1,0 +1,44 @@
+#header {
+    /* background-color: black; */
+    /* background-image: url("../images/backgrounds/header/apple-background.png"); */
+    background-image: url("../images/backgrounds/header/Banner.jpg");
+    height: 150px;
+}
+
+
+.header__top {
+    height: 75px;
+    padding-top :30px
+}
+
+.header__bottom {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__bottom__menu ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__bottom__notification {
+    margin-left: 200px;
+}
+
+.header__bottom__notification h4 {
+    color: white;
+}
+
+
+.header__bottom__menu ul li {
+    background-color: white;
+    list-style-type: none;
+    margin: 0px 3px 0px 3px;
+    padding: 7px 9px 7px 9px;
+}
+
+.header__bottom__menu ul li a {
+    text-decoration: none;
+}
